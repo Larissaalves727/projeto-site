@@ -1,16 +1,21 @@
 @charset "UTF-8";
 
 /* 
-Azul profundo: #344C67
-Azul céu: #7296B3
-Azul névoa: #B6CDD5
-Creme: #F2E9D8
-Pêssego: #D99B78
+Fundo: creme #FFF3D9.
+abeçalho e rodapé: azul profundo #176B91.
+Botões e links: azul principal #2CA9D5.
+Cards e detalhes: azul suave #A8DDEC.
+Preços e pequenos destaques: pêssego #F2B98B.
+etalhes decorativos: verde floresta #527A65.
+
+fonte principal: "Nunito", sans-serif;
+fonte logo: "Fredoka", sans-serif;
 */
 
 :root {
-  --fundo-principal: #F2E9D8;
+  --fundo-principal: #FFF3D9;
   --texto: #222222;
+  --fundo-menu: #2CA9D5;
 }
 * {
   margin: 0;
@@ -18,24 +23,15 @@ Pêssego: #D99B78
   box-sizing: border-box;
 }
 
-/*
-  fonte de logos 
-.fredoka-<uniquifier> {
-  font-family: "Fredoka", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-
-
-    fonte menu e demais
-    
-.nunito-<uniquifier> {
+nav#menu{
+  background-color: var(--fundo-menu);
+}
+nav#menu > ul > li > a{
+  color: var(--fundo-principal);
+  text-decoration: none;
   font-family: "Nunito", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
 }
+
+div.poster > img{
+  width: 400px;
 }
-*/
