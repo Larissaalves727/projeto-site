@@ -1,14 +1,17 @@
 @charset "UTF-8";
+
 /* 
-  Variáveis para cores:
-  --fundo-principal
-  --texto
-  --texto-inverso
-  --destaque
-  --destaque-inverso
-  --fundo-card
+Azul profundo: #344C67
+Azul céu: #7296B3
+Azul névoa: #B6CDD5
+Creme: #F2E9D8
+Pêssego: #D99B78
 */
 
+:root {
+  --fundo-principal: #F2E9D8;
+  --texto: #222222;
+}
 * {
   margin: 0;
   padding: 0;
