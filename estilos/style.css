@@ -18,11 +18,24 @@ Pêssego: #D99B78
   box-sizing: border-box;
 }
 
-:root {
-  --fundo-principal: #f5f5f5;
-  --texto: #222222;
-  --texto-inverso: #ffffff;
-  --destaque: #0077ff;
-  --destaque-inverso: #66bbff;
-  --fundo-card: #ffffff;
+/*
+  fonte de logos 
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+
+    fonte menu e demais
+    
+.nunito-<uniquifier> {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
+}
+*/
