@@ -23,13 +23,36 @@ fonte logo: "Fredoka", sans-serif;
   box-sizing: border-box;
 }
 
-nav#menu{
+header {
   background-color: var(--fundo-menu);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+    
 }
+
+img#logo{
+  width: 100px;
+}
+
+
+nav#menu > ul{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-items: left;
+  gap: 20px;
+  list-style: none;
+
+}
+
 nav#menu > ul > li > a{
   color: var(--fundo-principal);
+  font-size: 18px;
   text-decoration: none;
   font-family: "Nunito", sans-serif;
+  
 }
 
 div.poster > img{
